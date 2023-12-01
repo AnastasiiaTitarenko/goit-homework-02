@@ -92,7 +92,7 @@ letter-spacing: 0.02em;
 .feature-list {
 list-style-type: none;
 }
-.feauture-item {
+.feature-item {
 color:  #434455;
 font-weight: 400;
 letter-spacing: 0.02em;
@@ -112,7 +112,7 @@ color: #2E2F42;
 }
 .team-list {
 list-style-type: none;
-background-color: #FFF;
+background-color: #FFFFFF;
 
 }
 .person-name {
