@@ -41,7 +41,8 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
 }
-.nav-header-link:hover {
+.nav-header-link:hover,
+.nav-header-link:focus {
   color: rgba(64, 75, 191, 1);
 }
 /* Contacts */
@@ -52,7 +53,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.Contacts {
+.contacts {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -62,8 +63,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.Contacts:hover,
-:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 /* Hero section */
@@ -87,7 +88,7 @@ body {
   cursor: pointer;
 }
 .hero-btn:hover,
-:focus {
+.hero-btn:focus {
   background-color: #404bbf;
 }
 /* Feature section */
@@ -125,6 +126,8 @@ body {
 }
 .team-list {
   list-style-type: none;
+}
+.team-section-background {
   background-color: #ffffff;
 }
 .person-name {
