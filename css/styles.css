@@ -99,6 +99,7 @@ letter-spacing: 0.02em;
 }
 .feature-list {
 list-style-type: none;
+background-color: #FFFFFF;
 }
 .feature-item {
 color:  #434455;
