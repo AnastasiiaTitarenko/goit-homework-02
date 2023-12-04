@@ -1,12 +1,9 @@
 /* Base Styles */
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   color: #434455;
   background-color: #fff;
-  line-height: 1.5;
 }
 /* Logo header */
 .logo-web {
@@ -24,9 +21,8 @@ body {
   color: #2e2f42;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
@@ -38,6 +34,8 @@ body {
 }
 .nav-header-link {
   color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.02em;
 }
@@ -47,18 +45,13 @@ body {
 }
 /* Contacts */
 .address {
-  color: #434455;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .contacts {
   color: #434455;
   font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -107,8 +100,7 @@ body {
   background-color: #ffffff;
 }
 .feature-item {
-  color: #434455;
-  font-weight: 400;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* Team section */
@@ -139,9 +131,7 @@ body {
   letter-spacing: 0.02em;
 }
 .person-position {
-  color: #434455;
   text-align: center;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -167,8 +157,6 @@ body {
   letter-spacing: 0.02em;
 }
 .portfolio-category {
-  color: #434455;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -180,7 +168,6 @@ body {
   color: #f4f4fd;
   font-family: 'Raleway';
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
@@ -190,7 +177,5 @@ body {
 }
 .footer-item {
   color: #f4f4fd;
-  font-size: 16px;
-  font-weight: 400;
   letter-spacing: 0.02em;
 }
